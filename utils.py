@@ -28,7 +28,7 @@ def simulate(forward, K, x0, M=None,N=0, burnin=500):
     simulate an ensemble of forward models over K time steps.
     :forward: forward model
     :K: number of time steps to generate
-    :N: enseømble size (if N=0, no ensemble)
+    :N: ensemble size (if N=0, no ensemble)
     :v0: initial state (shape: (3,N)), if N=0. (shape: (3))
     :burnin: number of initial time step to discard (spinup period)
     """
